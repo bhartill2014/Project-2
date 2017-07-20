@@ -1,0 +1,17 @@
+﻿Build started 4/12/2017 10:53:35 PM.
+     1>Project "C:\Users\Bridget\Documents\Visual Studio 2013\Projects\Project2\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt leftist_heap_driver.cpp
+         leftist_heap_driver.cpp
+     1>c:\users\bridget\documents\visual studio 2013\projects\project2\project2\ece2552.h(508): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\bridget\documents\visual studio 2013\projects\project2\project2\ece2552.h(545): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\bridget\documents\visual studio 2013\projects\project2\project2\leftist_node.h(108): warning C4717: 'Leftist_node<int>::count' : recursive on all control paths, function will cause runtime stack overflow
+     1>c:\users\bridget\documents\visual studio 2013\projects\project2\project2\leftist_node.h(108): warning C4717: 'Leftist_node<double>::count' : recursive on all control paths, function will cause runtime stack overflow
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Bridget\Documents\Visual Studio 2013\Projects\Project2\Debug\Project2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Bridget\Documents\Visual Studio 2013\Projects\Project2\Debug\Project2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Bridget\Documents\Visual Studio 2013\Projects\Project2\Debug\Project2.lib" /MACHINE:X86 Debug\leftist_heap_driver.obj
+         Project2.vcxproj -> C:\Users\Bridget\Documents\Visual Studio 2013\Projects\Project2\Debug\Project2.exe
+     1>Done Building Project "C:\Users\Bridget\Documents\Visual Studio 2013\Projects\Project2\Project2\Project2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.93
